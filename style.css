@@ -1,0 +1,156 @@
+body,html{
+    min-height: 0%;
+    max-height: 100%;
+    height: 100%;
+}
+header{
+        height: 25%;
+}
+#header_zone{
+    height: 100%;
+    box-sizing: border-box;
+    padding:83px 0;
+}
+/* 언어 선택 박스 */
+#lang_box{
+    width:90px;
+    height: 25px;
+    float:right;
+    margin: -50px 10px; 
+}
+.clear{
+    clear: both;
+}
+/* 타이틀 */
+#naver_title{
+    margin:0 auto;
+    font-size: 60px;
+    font-weight: bold;
+    text-align:center;
+    color: green;
+    
+    
+}
+section{
+    min-height: 0%;
+    max-height: 60%;
+    height: 60%;
+}
+/* 섹션 */
+#content_zone{
+    box-sizing:border-box;
+    padding:0 755px;
+    margin:0 auto;
+    vertical-align: middle;
+    height: auto;
+}
+/* id + password + login */
+#id_box{
+    box-sizing: border-box;
+    padding:10px;
+    margin:0 0 10px  0;
+    width:374px;
+    height:48px;
+    display: block;
+    border:1px solid green;
+}
+#password_box{
+    box-sizing: border-box;
+    padding:10px;
+    margin:0 0 10px  0;
+    width:374px;
+    height:48px;
+    display: block;
+    border:1px solid green;
+}
+
+#login_bt{
+    margin:0 0 10px  0;
+    width:374px;
+    height:48px;
+    background-color: limegreen;
+    color:white;
+    font-size:24px;
+    font-weight: bold;
+}
+/* 로그인 상태 유지 */
+#label{
+    display: block;
+}
+/* 편리한 로그인 */
+#other_login{
+    padding:0 754px;
+    height: auto;
+}
+#easy_login{
+
+    text-align: center;
+    font-weight: bold;
+    font-size:22px;
+}
+
+#qr_login{
+    width: 179px;
+    height: 48px;
+    background-color: white;
+    border: 1px solid limegreen;
+    font-weight: bold;
+    font-size:14px;
+    
+}
+
+#one_login{
+    
+    width: 179px;
+    height: 48px;
+    background-color: white;
+    border: 1px solid limegreen;
+    font-weight: bold;
+    font-size:14px;
+    margin:0 0 20px 0;
+}
+/* 아이디 비밀번호 찾기 + 회원가입 */
+#log_div{
+    color: gray;
+}
+#search_id{
+    text-decoration-line: none;
+    margin:0 1px 0 40px;
+    color: gray;
+}
+#search_ps{
+    text-decoration-line: none;
+    margin: 0 1px 0 0;
+    color: gray;
+}
+#sign_up{
+    text-decoration-line: none;
+    margin: 0 10px 0 0;
+    color: gray;
+}
+/* 광고 */
+#ad_zone{
+    padding:0 755px;
+    margin:10px 0 0 0;
+    height: auto;
+    
+}
+#ad{
+    height: auto;
+    width:374px;
+}
+footer{
+    height: 15%;
+}
+
+#footer_zone{
+    padding: 85px 0 0 0;
+    text-align: center;
+}
+.line{
+    margin: 10px 0 0 755px;
+    border:1px solid gray;
+    width:377px;
+    
+}
+/* 페이지 동적 수정 필요!! */
