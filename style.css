@@ -1,45 +1,33 @@
-body,html{
+*{border:1px solid black;
+}
+html,body{
+    height:100%;
     min-height: 0%;
-    max-height: 100%;
-    height: 100%;
 }
-header{
-        height: 25%;
+.container{
+    display:grid;
+    grid-template-columns: 100% 50%;
+    grid-template-rows:451px 451px;
 }
-#header_zone{
-    height: 100%;
-    box-sizing: border-box;
-    padding:83px 0;
+.cell-a{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding: 0 20%;
+    
 }
-/* 언어 선택 박스 */
-#lang_box{
-    width:90px;
-    height: 25px;
-    float:right;
-    margin: -50px 10px; 
-}
-.clear{
-    clear: both;
-}
-/* 타이틀 */
-#naver_title{
-    margin:0 auto;
-    font-size: 60px;
+#qr_login{
+    width: 179px;
+    height: 48px;
+    background-color: white;
+    border: 1px solid limegreen;
     font-weight: bold;
-    text-align:center;
-    color: green;
-    
+    font-size:14px;
     
 }
-section{
-    min-height: 0%;
-    max-height: 60%;
-    height: 60%;
-}
-/* 섹션 */
 #content_zone{
-    box-sizing:border-box;
-    padding:0 755px;
+    border:1px solid black;
+    box-sizing:content-box;
+    
     margin:0 auto;
     vertical-align: middle;
     height: auto;
@@ -47,9 +35,8 @@ section{
 /* id + password + login */
 #id_box{
     box-sizing: border-box;
-    padding:10px;
     margin:0 0 10px  0;
-    width:374px;
+    width:80%;
     height:48px;
     display: block;
     border:1px solid green;
@@ -73,84 +60,3 @@ section{
     font-size:24px;
     font-weight: bold;
 }
-/* 로그인 상태 유지 */
-#label{
-    display: block;
-}
-/* 편리한 로그인 */
-#other_login{
-    padding:0 754px;
-    height: auto;
-}
-#easy_login{
-
-    text-align: center;
-    font-weight: bold;
-    font-size:22px;
-}
-
-#qr_login{
-    width: 179px;
-    height: 48px;
-    background-color: white;
-    border: 1px solid limegreen;
-    font-weight: bold;
-    font-size:14px;
-    
-}
-
-#one_login{
-    
-    width: 179px;
-    height: 48px;
-    background-color: white;
-    border: 1px solid limegreen;
-    font-weight: bold;
-    font-size:14px;
-    margin:0 0 20px 0;
-}
-/* 아이디 비밀번호 찾기 + 회원가입 */
-#log_div{
-    color: gray;
-}
-#search_id{
-    text-decoration-line: none;
-    margin:0 1px 0 40px;
-    color: gray;
-}
-#search_ps{
-    text-decoration-line: none;
-    margin: 0 1px 0 0;
-    color: gray;
-}
-#sign_up{
-    text-decoration-line: none;
-    margin: 0 10px 0 0;
-    color: gray;
-}
-/* 광고 */
-#ad_zone{
-    padding:0 755px;
-    margin:10px 0 0 0;
-    height: auto;
-    
-}
-#ad{
-    height: auto;
-    width:374px;
-}
-footer{
-    height: 15%;
-}
-
-#footer_zone{
-    padding: 85px 0 0 0;
-    text-align: center;
-}
-.line{
-    margin: 10px 0 0 755px;
-    border:1px solid gray;
-    width:377px;
-    
-}
-/* 페이지 동적 수정 필요!! */
